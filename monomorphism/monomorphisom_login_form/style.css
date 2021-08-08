@@ -1,0 +1,118 @@
+:root {
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+    --regular-color: rgb(195, 221, 210);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width:100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#555;
+    background: rgb(237, 245, 245);
+}
+
+.login-form{
+    width: 300px;
+    height: 500px;
+    background:  rgb(237, 245, 245);
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px var(--regular-color),
+                -10px -10px 15px white;
+}
+.logo{
+    margin: 30px auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px,
+    -5px -5px 8px white,
+    5px 5px 8px var(--regular-color);
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-form > p{
+    text-align: center;
+    margin:40px auto;
+    text-transform: capitalize;
+}
+
+.user-name , .password ,.show-password {
+    margin:20px 50px ;
+    border: none;
+    outline: 0;
+    background: transparent;
+    padding: 10px ;
+    box-shadow: inset 5px 5px 5px var(--regular-color),
+                inset -5px -5px 5px white;
+    border-radius: 5px;
+}
+
+
+form .submit{
+    display: block;
+    background: turquoise;
+    border: none;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px 60px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px var(--regular-color),
+                -10px -10px 15px white;
+}
+
+.show-password {
+    box-shadow: none;
+    margin-right: 14px;
+}
+
+.button{
+    margin-left:150px ;
+}
+
+button{
+    display:inline-block;
+    padding: 2px;
+    width: 100px;
+}
+
+.red{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(245, 153, 153),
+                -5px -5px 5px white;
+}
+
+.green{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(190, 245, 153),
+                -5px -5px 5px white;
+}
+
+.blue{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(153, 208, 245),
+                -5px -5px 5px white;
+}
+.yellow{
+    border: none;
+    border-radius: 3px;
+    
+    box-shadow: 5px 5px 5px rgb(245, 239, 153),
+                -5px -5px 5px white;
+}
